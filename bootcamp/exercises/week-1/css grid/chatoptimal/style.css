@@ -13,14 +13,55 @@
 #friends{
   grid-area: f;
   display: grid;
+  background-color: rgb(204, 0, 244);
+  font-family: monospace;
 }
 
+#title-friends{
+  position: relative;
+  left:10px;
+}
 #chatbox{
   grid-area: c;
   display: grid;
+  background-color:rgb(243, 252, 255)
 }
 
 #input{
   grid-area: i;
   display: grid;
 }
+
+#friends>p{
+  background-color: rgba(136, 46, 133, 0.3);
+  height:30px;
+}
+
+.text-container-right{
+  background-color: rgb(0, 192, 0);
+  display: inline-block;
+}
+
+.text-container-left{
+  background-color: gray;
+  margin: 10px;
+}
+
+#send{
+  background-color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  grid-area: s;
+}
+
+#i{
+  grid-area: p;
+}
+
+#input{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+  "p p s"
+}
+
