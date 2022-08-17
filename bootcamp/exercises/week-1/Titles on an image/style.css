@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://webneel.com/wallpaper/sites/default/files/images/01-2014/1-flower-wallpaper.preview.jpg);
+}
+div{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+}
+#transparent{
+    background-color: rgba(14, 234, 146, 0.3);
+    color: rgba(0, 0, 0 , 0.5);
+}
+
+#solid{
+    background-color: rgba(14,234,146,1);
+}

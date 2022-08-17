@@ -1,0 +1,14 @@
+#example{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding-bottom: 100px;
+  }
+
+#example2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding-right: 100px;
+   
+}
