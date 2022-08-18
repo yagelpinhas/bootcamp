@@ -1,0 +1,46 @@
+#all{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+#gray-left{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+
+}
+#red-left{
+    position: absolute;
+    top:100px;
+    width: 100px;
+    height: 400px;
+    background-color: red;
+}
+
+#red-center{
+    position: absolute;
+    top:450px;
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+#red-right{
+    position: absolute;
+    top:100px;
+    width: 100px;
+    height: 400px;
+    background-color: red;
+    right:0;
+}
+
+#gray-right{
+    position: absolute;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    bottom: 400px;
+    right:0px;
+}
