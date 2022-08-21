@@ -5,10 +5,10 @@ const SongsManager = function () {
     }
     
     const addSong = function(str,identifier){
-        songs[str]=constStr+identifier
+        songs[str]=identifier.slice(32)
     }
     const getSong = function(str){
-        console.log(songs[str])
+        console.log(constStr+songs[str])
     }
    
     return {
