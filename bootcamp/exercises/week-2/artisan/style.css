@@ -1,0 +1,28 @@
+#form {
+  background-color: red;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+#formText {
+  color: white;
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+#TextElementName {
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+#TextElementPassword {
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+#submit {
+  position: relative;
+  top: 60px;
+  left: 150px;
+}
