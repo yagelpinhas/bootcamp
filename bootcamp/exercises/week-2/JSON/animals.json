@@ -1,0 +1,19 @@
+{
+    "name": "Charlie",
+    "weight": {
+        "number": 25,
+        "units": "kilograms"
+    },
+    "location": "Desert",
+    "endangered": "True",
+    "Foods": [
+        {"food":"carrot",
+        "percentage": "20"
+        },
+        {"food": "lettuce",
+        "percentage":80
+        }
+    ],
+    "Other Animals that eat it": ["Cow","Rabbit"],
+    "Delicious": 5
+}
