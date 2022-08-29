@@ -1,0 +1,13 @@
+.card{
+    width:230px;
+    height:100px;
+    display: inline-block;
+    background-color:gray;
+    margin: 50px;
+}
+
+#container{
+    background-color: aqua;
+}
+
+   
