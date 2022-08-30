@@ -1,13 +1,17 @@
 .card{
-    width:230px;
+    width:240px;
     height:100px;
-    display: inline-block;
     background-color:gray;
     margin: 50px;
 }
 
 #container{
-    background-color: aqua;
+    display:grid;
+    width: 100wh;
+    padding: 15px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 1fr);
 }
+
 
    

@@ -1,20 +1,18 @@
 $.ajax({
-    url: 'https://randomuser.me/api/',
+    url: 'https://randomuser.me/api/?results=5',
     dataType: 'json',
     success: function(data) {
-        $("body").append(`<div class="card" id="${data.results[0].id.value}"> Name: ${data.results[0].name.first} Email: ${data.results[0].email} </div>`)
+      for(let i=0;i<16;i++){
+        $("#container").append(`<div class="card">
+         <div> Name: ${data.results[i].name.first}  </div>
+          <div> Email: ${data.results[i].email}</div>
+           </div>`)
+      }
       console.log(data.results[0].name.first);
       console.log(data.results[0].email)
       console.log(data.results[0].id.value)
-    }
-  });
-  $.ajax({
-    url: 'https://randomuser.me/api/',
-    dataType: 'json',
-    success: function(data) {
-        $("body").append(`<div class="card" id="${data.results[0].id.value}"> Name: ${data.results[0].name.first} Email: ${data.results[0].email} </div>`)
-      console.log(data.results[0].name.first);
-      console.log(data.results[0].email)
-      console.log(data.results[0].id.value)
+      console.log(data.results[1].name.first);
+      console.log(data.results[1].email)
+      console.log(data.results[1].id.value)
     }
   });
