@@ -130,3 +130,12 @@ test('Exercise 4: check an array of booleans - 1 at least',() => {
     let wrongType=true
     expect(exj.validate(wrongType)).toEqual({error: "Need at least one boolean"})
 })
+
+test('Exercise EXTENSION: should check if push was called',() => {
+    let exj = new EX()
+    const pushCheck = jest.fn(Array.prototype.push);
+
+    const spy = jest.spyOn(Array.prototype, 'push');
+    exj.add(2,3)
+    expect(spy).toHaveBeenCalled();
+})
