@@ -1,5 +1,7 @@
 
-const faker = require('faker')
+const {faker} = require('@faker-js/faker')
+
+
 const validator = require('validator')
 
 console.log(validator.isEmail('shoobert@dylan'));
@@ -10,6 +12,8 @@ let blacklist = ["!", "?", ".", "@", "~", ",", "'"]
 let text = "I'M SO EXCITED!!!~!"
 console.log(validator.blacklist(text, blacklist))
 
+
+console.log(faker.name.firstName())
 const makeHuman = function(num){
     let people=[]
     for(let i=0;i<num;i++){
