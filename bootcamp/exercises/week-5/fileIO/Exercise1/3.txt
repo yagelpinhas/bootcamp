@@ -1,0 +1,4 @@
+Quiz1: 91
+Quiz1: 85
+Quiz1: 94
+Average: 90.0
