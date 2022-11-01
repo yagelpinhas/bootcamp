@@ -4,7 +4,7 @@ class Animal:
         self.food=food
         self.quantity=quantity
     def eat(self):
-        print(self.name+"is eating "+self.quantity+"kilograms of "+self.food)
+        print(self.name+"is eating "+str(self.quantity)+"kilograms of "+self.food)
     def get_food(self):
         return self.food
     def get_quantity(self):
