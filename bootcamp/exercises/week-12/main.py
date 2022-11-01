@@ -12,7 +12,7 @@ nemo = ClownFish("nemo")
 marlin = ClownFish("marlin")
 
 animals =[]
-animals.extend[simba,nala,willy,akka,hedwig,nemo,marlin]
+animals.extend([simba,nala,willy,akka,hedwig,nemo,marlin])
 food_manager = FoodManager()
 
 for i in range(0,14):

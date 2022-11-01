@@ -13,4 +13,4 @@ class FoodManager:
             self.food_supply[animal.get_food()]+=animal.get_quantity()
         else:
             self.food_supply[animal.get_food()]-=animal.get_quantity()
-            print("The animal "+ animal.get_name()+" just ate "+animal.get_quantity()+" "+animal.get_food())
+            print("The animal "+ animal.get_name()+" just ate "+str(animal.get_quantity())+" "+animal.get_food())
